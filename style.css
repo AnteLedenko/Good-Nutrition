@@ -1,0 +1,1843 @@
+@media (max-width:700px){
+    body{
+        display: grid;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        background-color: #dbeac6;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(images/image1.png);
+        background-color: #497d59;
+        background-position: center;
+        background-blend-mode: multiply;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+        color: white;
+        font-size: xx-large;
+    }
+    .hb :hover{
+        color: yellowgreen;
+        cursor: pointer;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 15px;
+        
+    }
+    .navbutton{
+        display: flex;
+        background-color: #497d59;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbutton:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .logo{
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    p{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .div1{
+        display: flex;
+        font-size: x-large;
+        background-image: url(images/image2.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        height: 300px;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .div2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2text{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        padding: 10px;
+    }
+    .divtext{
+        padding: 10px;
+    }
+    .div211{
+        display: grid;
+        grid-row: 2;
+        background-image: url(images/image4.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        border-bottom-left-radius: 5px;
+    }
+    .div222{
+        display: grid;
+        grid-row: 2;
+        background-image: url(images/image3.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        border-bottom-right-radius: 5px;
+    }
+    .div3{
+        display: grid;
+        grid-template-rows: 1fr 400px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div311{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/image5.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    ul{
+        padding-left: 60px;
+    }
+    .div4{
+        display: grid;
+        grid-template-rows: 70px 1fr 410px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div411{
+        display: grid;
+        align-items: center;
+        background-image: url(images/image6.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .div5{
+        display: grid;
+        grid-template-rows: 70px 1fr 550px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div511{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-image: url(images/image7.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .div6{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/image20.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        padding: 20px;
+    }
+    .logo2{
+        height: 150px;
+        width: 150px;
+    }
+    .div10{
+        display: grid;
+        grid-template-rows: 200px 1fr;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div101{
+        background-image: url(images/image8.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div11{
+        display: grid;
+        grid-template-rows: 200px 1fr 300px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div111{
+        background-image: url(images/image9.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div112{
+        background-image: url(images/image10.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .water-soluble-vitamins,
+    .fat-soluble-vitamins,
+    .macrominerals,
+    .trace-minerals{
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: 100px;
+        gap: 5px;
+        text-align: center;
+        background-color: #dbeac6;
+        border-radius: 5px;
+        border:  solid #497d59;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    h4{
+        color: #497d59;
+    }
+    .popbutton{
+        height: 70px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: #497d59;
+        margin-bottom: 13px;
+    }
+    .popbutton:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .popdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-radius: 5px;
+        background-color: #dbeac6;
+    }
+    .popimg{
+        width: 100%;
+        height: 70px;
+        border-radius: 20px;
+    }
+    .poptext{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: small;
+        align-items: center;
+        color: darkgreen;
+    }
+    .div20{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 1fr 200px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div201{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-image: url(images/image11.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px; 
+    }
+    .div201text{
+        display: grid;
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .div202{
+        display: grid;
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-image: url(images/image12.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+    }
+    .div203{
+        display: grid;
+        grid-row: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        background-image: url(images/image13.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+    }
+    .div204{
+        display: grid;
+        grid-row: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        background-image: url(images/image14.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-right-radius: 5px;
+    }
+    .div21{
+        display: grid;
+        grid-template-rows: 200px 1fr ;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2111{
+        background-image: url(images/image15.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div22{
+        display: grid;
+        grid-template-rows: 200px 1fr ;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2222{
+        background-image: url(images/image16.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div23{
+        display: grid;
+        grid-template-rows: 200px 1fr ;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2333{
+        background-image: url(images/image17.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .source-macro{
+        background-image: url(images/image18.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        border-radius: 5px;
+        height: 100px;
+        margin-bottom: 15px;
+        padding-top: 20px;
+    }
+    .form1,
+    .form2,
+    .form3{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 100px;
+        gap: 5px;
+        text-align: center;
+        background-color: #dbeac6;
+        border-radius: 5px;
+        border:  solid #497d59;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    .formh2{
+        color: #497d59;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .form-button1{
+        height: 50px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: #497d59;
+        margin-bottom: 5px;
+    }
+    .form-button1:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .form-div{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        color: #497d59;
+    }
+    .calculator{
+        background-color: #dbeac6;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        padding: 20px;
+        border-radius: 5px;
+        border: solid #497d59;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .count-container{
+        display: grid;
+        grid-column: 1/4;
+        text-align: center;
+    }
+    .calculate-button{
+        background-color: #497d59;
+        color: white;
+        text-align: center;
+        height: 32px;
+        border-radius: 20px;
+        border: none;
+        display: grid;
+        grid-column: 4;
+        width: 100%;
+        align-items: center;
+    }
+    .calculate-button:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .input1,
+    .input2,
+    .input3{
+        min-width: 60px;
+        height: 22px;
+        border-radius: 20px;
+        border: solid #497d59;
+        padding: 5px;
+        margin: 3px;
+    }
+    .add-button{
+        background-color: #497d59;
+        color: white;
+        width: 100%;
+        height: 32px;
+        border-radius: 20px;
+        border: none;
+        margin: 3px;
+    }
+    .add-button:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .delete-button{
+        background-color: red;
+        color: white;
+        height: 30px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 5px;
+        margin: 3px;
+    }
+    .delete-button:hover{
+        cursor: pointer;
+    }
+    .calculator-text{
+        font-size: medium;
+    }
+    .search{
+        background-color: #dbeac6;
+        border-radius: 5px;
+        padding: 20px;
+        border: solid #497d59;
+        margin-bottom: 20px;
+    }
+    .input4{
+        width: 100%;
+        border: solid #497d59;
+        height: 32px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    .search-result{
+       display: flex;
+       margin: 10px;
+       justify-content: left;
+       align-items: center;
+    }
+    .result-container{
+        background-color: #dbeac6;
+        border-radius: 5px;
+        padding: 20px;
+        border: solid #497d59;
+        height: 325px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        overflow: scroll;
+    }
+    .result-image{
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        border: solid #497d59;
+        margin-right: 40px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(images/image19.png);
+        align-items: center;
+        background-color: #497d59;
+        background-position: center;
+        background-blend-mode: multiply;
+        border-radius: 5px;
+        height: 450px;
+    }
+    .footerh2{
+        color: white;
+    }
+    .footerdiv1,
+    .footerdiv2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .foobutton{
+        display: flex;
+        background-color: #497d59;
+        height: auto;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        text-align: center;
+        padding: 5px;
+    }
+    .foobutton:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+}
+@media (min-width:701px) and (max-width:1200px){
+    body{
+        display: grid;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        background-color: #dbeac6;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(images/image1.png);
+        background-color: #497d59;
+        background-position: center;
+        background-blend-mode: multiply;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+        color: white;
+        font-size: xx-large;
+    }
+    .hb :hover{
+        color: yellowgreen;
+        cursor: pointer;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 15px;
+        
+    }
+    .navbutton{
+        display: flex;
+        background-color: #497d59;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbutton:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .logo{
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    p{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        width: 100%;
+    }
+    .main4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .div1{
+        display: flex;
+        font-size: x-large;
+        background-image: url(images/image2.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        height: 410px;
+    }
+    .div2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+        height: 410px;
+    }
+    .div2text{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .divtext{
+        padding: 10px;
+    }
+    .div211{
+        display: grid;
+        grid-row: 2;
+        background-image: url(images/image4.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        border-bottom-left-radius: 5px;
+    }
+    .div222{
+        display: grid;
+        grid-row: 2;
+        background-image: url(images/image3.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        border-bottom-right-radius: 5px;
+    }
+    .div3{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div311{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/image5.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    dl{
+        padding-left: 30px;
+    }
+    .div4{
+        display: grid;
+        grid-template-rows: 70px 1fr auto;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        height: auto;
+    }
+    .div411{
+        display: grid;
+        align-items: center;
+        background-image: url(images/image6.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .div5{
+        display: grid;
+        grid-template-rows: 70px 1fr auto;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div511{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-image: url(images/image7.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .div6{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/image20.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        height: 385px;
+        margin-bottom: 15px;
+    }
+    .logo2{
+        height: 150px;
+        width: 150px;
+    }
+    .div10{
+        display: grid;
+        grid-template-rows: 200px 1fr;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div101{
+        background-image: url(images/image8.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div11{
+        display: grid;
+        grid-template-rows: 200px 1fr 300px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div111{
+        background-image: url(images/image9.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div112{
+        background-image: url(images/image10.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .water-soluble-vitamins,
+    .fat-soluble-vitamins,
+    .macrominerals,
+    .trace-minerals{
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: 100px;
+        gap: 5px;
+        text-align: center;
+        background-color: #dbeac6;
+        border-radius: 5px;
+        border:  solid #497d59;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    h4{
+        color: #497d59;
+    }
+    .popbutton{
+        height: 70px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: #497d59;
+        margin-bottom: 13px;
+    }
+    .popbutton:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .popdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-radius: 5px;
+        background-color: #dbeac6;
+    }
+    .popimg{
+        width: 100%;
+        height: 70px;
+        border-radius: 20px;
+    }
+    .poptext{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: small;
+        align-items: center;
+        color: darkgreen;
+    }
+    .div20{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 1fr 200px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div201{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-image: url(images/image11.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px; 
+    }
+    .div201text{
+        display: grid;
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .div202{
+        display: grid;
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-image: url(images/image12.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+    }
+    .div203{
+        display: grid;
+        grid-row: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        background-image: url(images/image13.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+    }
+    .div204{
+        display: grid;
+        grid-row: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        background-image: url(images/image14.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-right-radius: 5px;
+    }
+    .div21{
+        display: grid;
+        grid-template-rows: 200px 1fr ;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2111{
+        background-image: url(images/image15.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div22{
+        display: grid;
+        grid-template-rows: 200px 1fr ;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2222{
+        background-image: url(images/image16.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div23{
+        display: grid;
+        grid-template-rows: 200px 1fr ;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2333{
+        background-image: url(images/image17.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .source-macro{
+        background-image: url(images/image18.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .form1,
+    .form2,
+    .form3{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 100px;
+        gap: 5px;
+        text-align: center;
+        background-color: #dbeac6;
+        border-radius: 5px;
+        border:  solid #497d59;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    .formh2{
+        color: #497d59;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .form-button1{
+        height: 50px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: #497d59;
+        margin-bottom: 5px;
+    }
+    .form-button1:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .form-div{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        color: #497d59;
+    }
+    .calculator{
+        display: grid;
+        background-color: #dbeac6;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        padding: 20px;
+        border-radius: 5px;
+        border: solid #497d59;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+    }
+    .count-container{
+        display: grid;
+        grid-column: 1/4;
+        text-align: center;
+    }
+    .calculate-button{
+        background-color: #497d59;
+        color: white;
+        text-align: center;
+        height: 32px;
+        border-radius: 20px;
+        border: none;
+        display: grid;
+        grid-column: 4;
+        width: 100%;
+        align-items: center;
+    }
+    .calculate-button:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .input1,
+    .input2,
+    .input3{
+        min-width: 60px;
+        height: 22px;
+        border-radius: 20px;
+        border: solid #497d59;
+        padding: 5px;
+        margin: 3px;
+    }
+    .add-button{
+        background-color: #497d59;
+        color: white;
+        width: 100%;
+        height: 32px;
+        border-radius: 20px;
+        border: none;
+        margin: 3px;
+    }
+    .add-button:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .delete-button{
+        background-color: red;
+        color: white;
+        height: 30px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 5px;
+        margin: 3px;
+    }
+    .delete-button:hover{
+        cursor: pointer;
+    }
+    .calculator-text{
+        font-size: medium;
+    }
+    .search{
+        display: grid;
+        background-color: #dbeac6;
+        border-radius: 5px;
+        padding: 20px;
+        border: solid #497d59;
+        margin-bottom: 20px;
+        height: 85px;
+        width: 600px;
+    }
+    .input4{
+        width: 100%;
+        height: 32px;
+        border: solid #497d59;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    .search-result{
+       display: flex;
+       margin: 10px;
+       justify-content: left;
+       align-items: center;
+    }
+    .result-container{
+        display: grid;
+        background-color: #dbeac6;
+        border-radius: 5px;
+        padding: 20px;
+        padding-top: 5px;
+        border: solid #497d59;
+        margin-bottom: 20px;
+        height: 400px;
+        width: 600px;
+        overflow: hidden;
+        overflow: scroll;
+    }
+    .result-container-div{
+        display: grid;
+    }
+    .result-image{
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        border: solid #497d59;
+        margin-right: 40px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(images/image19.png);
+        align-items: center;
+        background-color: #497d59;
+        background-position: center;
+        background-blend-mode: multiply;
+        border-radius: 5px;
+        height: 300px;
+    }
+    .footerh2{
+        color: white;
+    }
+    .footerdiv1,
+    .footerdiv2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .foobutton{
+        display: flex;
+        background-color: #497d59;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .foobutton:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+
+}
+@media (min-width:1201px){
+    body{
+        display: grid;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        background-color: #dbeac6;
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(images/image1111.png);
+        background-color: #497d59;
+        background-position: center;
+        background-blend-mode: multiply;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+        color: white;
+        font-size: xx-large;
+    }
+    .hb :hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 15px;
+    }
+    .navbutton{
+        display: flex;
+        background-color: #497d59;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbutton:hover{
+        color: greenyellow;
+    }
+    .logo{
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    p{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .div1{
+        flex: 4;
+        display: flex;
+        font-size: x-large;
+        background-image: url(images/image2.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-blend-mode: multiply;
+        background-position: center;
+        color: white;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .div2{
+        flex: 4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        height: 410px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .div2text{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .divtext{
+        padding: 10px;
+    }
+    .div211{
+        display: grid;
+        grid-row: 2;
+        background-image: url(images/image4.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        border-bottom-left-radius: 5px;
+    }
+    .div222{
+        display: grid;
+        grid-row: 2;
+        background-image: url(images/image3.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        border-bottom-right-radius: 5px;
+    }
+    .div3{
+        flex: 4;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div311{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/image5.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    dl{
+        padding-left: 30px;
+    }
+    .div4{
+        display: grid;
+        grid-template-rows: 70px 1fr 300px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div411{
+        display: grid;
+        align-items: center;
+        background-image: url(images/image6.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .div5{
+        display: grid;
+        grid-template-rows: 70px 1fr 300px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div511{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-image: url(images/image7.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .div6{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/image20.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .logo2{
+        height: 150px;
+        width: 150px;
+    }
+    .div10{
+        display: grid;
+        grid-template-rows: 200px 1fr;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div101{
+        background-image: url(images/image8.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div11{
+        display: grid;
+        grid-template-rows: 200px 1fr 300px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div111{
+        background-image: url(images/image9.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div112{
+        background-image: url(images/image10.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .water-soluble-vitamins,
+    .fat-soluble-vitamins,
+    .macrominerals,
+    .trace-minerals{
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: 100px;
+        gap: 5px;
+        text-align: center;
+        background-color: #dbeac6;
+        border-radius: 5px;
+        border:  solid #497d59;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    h4{
+        color: #497d59;
+    }
+    .popbutton{
+        height: 70px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: #497d59;
+        margin-bottom: 13px;
+    }
+    .popbutton:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .popdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-radius: 5px;
+        background-color: #dbeac6;
+    }
+    .popimg{
+        width: 100%;
+        height: 70px;
+        border-radius: 20px;
+    }
+    .poptext{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: small;
+        align-items: center;
+        color: darkgreen;
+    }
+    .div20{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 1fr 200px;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div201{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-image: url(images/image11.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px; 
+    }
+    .div201text{
+        display: grid;
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .div202{
+        display: grid;
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-image: url(images/image12.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 5px;
+    }
+    .div203{
+        display: grid;
+        grid-row: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        background-image: url(images/image13.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+    }
+    .div204{
+        display: grid;
+        grid-row: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        background-image: url(images/image14.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-bottom-right-radius: 5px;
+    }
+    .div21{
+        display: grid;
+        grid-template-rows: 200px 1fr ;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2111{
+        background-image: url(images/image15.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div22{
+        display: grid;
+        grid-template-rows: 200px 1fr ;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2222{
+        background-image: url(images/image16.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .div23{
+        display: grid;
+        grid-template-rows: 200px 1fr ;
+        background-color: #497d59;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .div2333{
+        background-image: url(images/image17.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .source-macro{
+        background-image: url(images/image18.png);
+        background-color: #497d59;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .form1,
+    .form2,
+    .form3{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 100px;
+        gap: 5px;
+        text-align: center;
+        background-color: #dbeac6;
+        border-radius: 5px;
+        border:  solid #497d59;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    .formh2{
+        color: #497d59;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .form-button1{
+        height: 50px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: #497d59;
+        margin-bottom: 5px;
+    }
+    .form-button1:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .form-div{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        color: #497d59;
+    }
+    .calculator{
+        background-color: #dbeac6;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        padding: 20px;
+        border-radius: 5px;
+        border: solid #497d59;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+    }
+    .count-container{
+        display: grid;
+        grid-column: 1/4;
+        text-align: center;
+    }
+    .calculate-button{
+        background-color: #497d59;
+        color: white;
+        text-align: center;
+        height: 32px;
+        border-radius: 20px;
+        border: none;
+        display: grid;
+        grid-column: 4;
+        width: 100%;
+        align-items: center;
+    }
+    .calculate-button:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .input1,
+    .input2,
+    .input3{
+        min-width: 60px;
+        height: 22px;
+        border-radius: 20px;
+        border: solid #497d59;
+        padding: 5px;
+        margin: 3px;
+        padding-bottom: 0px;
+    }
+    .add-button{
+        background-color: #497d59;
+        color: white;
+        width: 100%;
+        height: 32px;
+        border-radius: 20px;
+        border: none;
+        margin: 3px;
+    }
+    .add-button:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+    .delete-button{
+        background-color: red;
+        color: white;
+        height: 30px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 5px;
+        margin: 3px;
+    }
+    .delete-button:hover{
+        cursor: pointer;
+    }
+    .calculator-text{
+        font-size: medium;
+    }
+    .search{
+        background-color: #dbeac6;
+        border-radius: 5px;
+        padding: 20px;
+        border: solid #497d59;
+        margin-bottom: 20px;
+        height: 85px;
+        width: 800px;
+    }
+    .input4{
+        width: 100%;
+        border: solid #497d59;
+        height: 32px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    .search-result{
+       display: flex;
+       margin: 10px;
+       justify-content: left;
+       align-items: center;
+    }
+    .result-container{
+        background-color: #dbeac6;
+        border-radius: 5px;
+        padding: 20px;
+        padding-top: 5px;
+        border: solid #497d59;
+        margin-bottom: 20px;
+        height: 500px;
+        width: 800px;
+        overflow: hidden;
+        overflow: scroll;
+    }
+    .result-image{
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        border: solid #497d59;
+        margin-right: 40px;
+    }  
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(images/image19.png);
+        align-items: center;
+        background-color: #497d59;
+        background-position: center;
+        background-blend-mode: multiply;
+        border-radius: 5px;
+        height: 500px;
+    }
+    .footerh2{
+        color: white;
+    }
+    .footerdiv1,
+    .footerdiv2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .foobutton{
+        display: flex;
+        background-color: #497d59;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .foobutton:hover{
+        color: greenyellow;
+    }
+}

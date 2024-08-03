@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><div class="hb"><h1>Good Nutrition</h1></div></a>
+            <img class="logo" src="images/logo.png" alt="logo">
+        </header>
+        <nav>
+            <a href="macronutrients.html"><div class="navbutton" type="button">Macronutrients</div></a>
+            <a href="micronutrients.html"><div class="navbutton" type="button">Micronutrients</div></a>
+            <a href="calculator.html"><div class="navbutton" type="button">Calculator</div></a>
+        </nav>
+        <main class="main4">
+                <form class="calculator">
+                    <input class="input1" id="item-input" type="text" placeholder="item">
+                    <input class="input2" id="weight-input" type="number" placeholder="weight">
+                    <input class="input3" id="calories-input" type="number" placeholder="calories">
+                    <button class="add-button" id="add-button" type="submit" onclick="addList()">Add</button>
+                    <div id="item-list-container"></div>
+                    <div id="weight-list-container"></div>
+                    <div id="calories-list-container"></div>
+                    <div id="delete-button-container"></div>
+                    <div class="count-container" id="total-calories-container"></div>
+                    <button class="calculate-button" id="calculate-button" type="submit" onclick="calculateCalories()">Calculate</button>
+                </form>
+                <div>
+                    <div class="search">
+                        <input class="input4" id="search-input" type="text" placeholder="search item">
+                    </div>
+                </div>
+                <div class="result-container-div">
+                    <div class="result-container" id="search-result-container"></div>
+                </div>
+        </main>
+        <script src="script3.js"></script>
+        <script src="data.js"></script>
+        <footer>
+            <div class="footerdiv1">
+                <h2 class="footerh2">For more informaiton about nutrition:</h2>
+                <a target="_blank" href="https://www.health.harvard.edu/topics/nutrition#nutrition0"><div class="foobutton">Harvard Health Publishing</div></a>
+                <a target="_blank" href="https://www.healthline.com/nutrition/what-are-macronutrients"><div class="foobutton">Healthline Macronutrients</div></a>
+                <a target="_blank" href="https://www.healthline.com/nutrition/micronutrients"><div class="foobutton">Healthline Micronutrients</div></a>
+            </div>
+            <div class="footerdiv2">
+                <h2 class="footerh2">Contact creator:</h2>
+                <a target="_blank" href="mailto:ledenko96@gmail.com" ><div class="foobutton">Email me</div></a>
+            </div>
+        </footer>
+    </body>
+</html>
